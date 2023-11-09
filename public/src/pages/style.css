@@ -1,0 +1,53 @@
+.cards-heading{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    border-bottom: solid rgb(203, 203, 203) 1px;
+    padding-bottom: 15px;
+}
+
+.cards-heading-name{
+    width:120px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+}
+
+.cards-heading-name img{
+    object-fit: cover;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+.cards-heading-name span{
+    margin: auto 0;
+}
+
+.cards-date,.cards-role,.cards-status,.cards-action,.cards-slno{
+    width: 80px;
+    margin: auto 0;
+}
+
+.cards-slno{
+    width:10px;
+}
+
+.cards-data{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin:20px 0;
+    border-bottom: solid rgb(203, 203, 203) 1px;
+    padding-bottom: 15px;
+}
+
+.cards-action{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+
+.cards-action img{
+    height: 18px;
+    width: 18px;
+}
